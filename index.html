@@ -1,0 +1,74 @@
+<!-- Index page is the homepage of the entire website it provides links to navigate to various pages in the website-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Jayenth Saravanakumar"/>
+    <meta name ="language" content="EN"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JFF restaurant website aims to provide online ordering system for customers">
+    <title>JFF - Restaurant</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <img src="images/jfflogo.png" alt="JFF Restaurant Logo" height="40" width="100">
+
+      <!-- JFF Logo image on the top right corner of the screen provides a link to the admin login from where the admin can access various features -->
+    <a href="php/alogin.php"><img src="images/jff-logo.png" alt="JFF LOGO" height="50" width="50" class="logo"></a>
+    </header><br>
+
+    <!-- Navigation bar facilitates navigation to various parts of the website -->
+    <nav>
+      <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="php/ourmenu.php">Our Menu</a></li>
+       <li><a href="php/login.php">Order Now</a></li>
+       <li><a href="php/review.php">Reviews</a></li>
+       <li><a href="html/contact.html">Contact Us</a></li>
+      </ul>
+    </nav><br>
+
+    <!-- Slideshow carousel -->
+    <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 2</div>
+      <img src="images/jffbanner1.png" alt="JFF Banner 1" height="600" width="1490">
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 2</div>
+      <img src="images/jffbanner2.png" alt="JFF Banner 2" height="600" width="1490">
+    </div>
+    </div>
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div><br><br>
+
+    <div class="b">
+      <h3>BRAND STORY</h3>
+      <h4>We #JFF are a small group of individuals trying to revolutionise the way you order and enjoy your every meal. Quality, Affordability and Convenience are our main motto.</h4>
+      <h4>We believe you are the best, so you deserve the best ! NEVER SETTLE !</h4>
+    </div><br><br>
+
+    <!-- Motto of JFF -->
+    <img src="images/motto.png" alt="Our Motto" width="1490"><br><br><br><br><br><br><br><br><br>
+
+     <!-- Footer shows shows some footer content and also provides a link to the privacy policy of the site -->
+     <footer>
+       <div class="footercontent">
+         All rights reserved. &#169;<br>
+         <a href="html/privacy-policy.html">Privacy-Policy</a><br>
+         This is a prototype restaurant online food ordering website, which enables users to order food and admin to view orders, add and delete items in menu, view customers, and also provides a basic idea of what customers order often, etc,.<br>
+         We store customer information like username, e-mail, password, mobile no., and address. <br>
+         While using this website you agree to our data storage, cookies, and privacy policy.<br>
+         We store this data only to facilitate the user experience and do not intend to use it for any other irreleveant/inappropriate purposes.<br>
+         The data is securely stored in our database.<br>
+       </div>
+     </footer>
+
+     <!-- Link to javascript file that runs the slideshow -->
+    <script src="js/java.js"></script>
+  </body>
+</html>
